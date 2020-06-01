@@ -1,7 +1,11 @@
 .quoteList {
     background-color: lightyellow;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .quote {
     background-color: yellow;
+    max-width: 25%;
 }
