@@ -1,3 +1,21 @@
 .banner {
     background-color: darkgoldenrod;
+    display: flex;
+    align-content: center;
+    max-height: 150px;
+}
+
+.banner__logo {
+    vertical-align: center;
+}
+
+.banner__image {
+    max-width: 150px;
+}
+
+.banner__title {
+    font-family: Candara, sans-serif;
+    font-size: 2rem;
+    padding: 0 3rem;
+    color: white; 
 }
