@@ -1,18 +1,25 @@
 .fishList {
-    background-color: mediumorchid;
+    background-image: url("https://wallpapercave.com/wp/OzpiTdT.jpg");
+    background-color: lightskyblue;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
 .fish {
-    background-color: mediumvioletred;
-    max-width: 30%;
+    background-color: rgba(11, 14, 214, 0.7);
+    max-width: 25%;
     margin: 2em;
+    color: rgb(219, 219, 243);
+    border-radius: 20px;
+    font-family: Candara, sans-serif;
 }
 
+.fish__title {
+    padding: 0 1em;
+}
 
 .fish__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 100%;
+    overflow: hidden;
 }
