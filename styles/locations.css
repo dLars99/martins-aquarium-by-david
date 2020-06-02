@@ -1,14 +1,19 @@
 .locationList {
+    background-image: url("https://i.pinimg.com/originals/60/f2/fb/60f2fba02c88a46e7e37dfe650f37d8c.jpg");
     background-color: mediumaquamarine;
+    font-family: Candara, sans-serif;
 }
 
 .location {
-    background-color: mediumseagreen;
+    background-color: rgba(60, 179, 114, 0.7);
     width: 100%;
     margin: 2rem 0;
     padding: 1rem 1.4rem;
 }
 
+.location__title {
+    color: rgb(9, 24, 19);
+}
 
 .location__picture {
     max-width: 15rem;

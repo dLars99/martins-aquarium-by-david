@@ -1,21 +1,28 @@
 .banner {
-    background-color: darkgoldenrod;
+    background-color: rgb(36, 35, 39);
+    color: rgb(220, 220, 240);
     display: flex;
     align-content: center;
-    max-height: 150px;
+    border-bottom: 3px ridge rgba(65, 65, 65, 0.2);
 }
 
 .banner__logo {
     vertical-align: center;
+    background-color: rgb(220, 220, 240);
+    padding: 0;
+    margin: 0;
 }
 
 .banner__image {
-    max-width: 150px;
+    max-width: 60px;
 }
 
 .banner__title {
     font-family: Candara, sans-serif;
-    font-size: 2rem;
+    font-size: 1.1rem;
     padding: 0 3rem;
-    color: white; 
+}
+
+.banner__title h1 {
+    margin: .5rem 0;
 }
