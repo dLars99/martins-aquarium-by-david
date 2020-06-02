@@ -4,6 +4,9 @@
 
 .location {
     background-color: mediumseagreen;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem 1.4rem;
 }
 
 
