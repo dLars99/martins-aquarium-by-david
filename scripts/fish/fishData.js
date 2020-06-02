@@ -40,5 +40,37 @@ const fishCollection = [
         length: 137,
         location: "Sea of Qo'noS",
         food: "Sleeping minnows"
+    },
+    {
+        picture: "https://vignette.wikia.nocookie.net/disney/images/6/60/Profile_-_Flounder.jpeg/revision/latest?cb=20191026173646",
+        name: "Jim",
+        species: "Orion Fish",
+        length: 9,
+        location: "Percy Priest",
+        food: "Lettuce"
+    },
+    {
+        picture: "https://www.spotmydive.com/media/cache/my_thumb_article_img/uploads/images/1460384757_ca8.jpg",
+        name: "Major Major",
+        species: "Flatfish",
+        length: 17,
+        location: "Marianas Trench",
+        food: "Leftover Pizza"
+    },
+    {
+        picture: "https://i.dailymail.co.uk/i/pix/2015/11/10/00/2E48C67200000578-0-image-m-31_1447114400618.jpg",
+        name: "Triclops",
+        species: "Mutated guppy",
+        length: 12,
+        location: "Sea of Eternia",
+        food: "Plutonium"
+    },
+    {
+        picture: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Still_Life_with_Dead_Fish_-_Muleg%C3%A9_-_Baja_California_Sur_-_Mexico.jpg",
+        name: "Willy",
+        species: "Pompano",
+        length: 13,
+        location: "Dead Sea",
+        food: "Sand"
     }
 ]
