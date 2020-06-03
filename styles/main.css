@@ -11,6 +11,8 @@
 }
 
 .underTheBanner {
+    background-image: url("http://1-background.com/images/water-1/water-ocean-water-background.jpg");
+    background-color: lightskyblue;
     display: flex;
     flex-direction: row;
 }

@@ -1,5 +1,5 @@
 .tipList {
-    background-color: lightskyblue;
+    background-color: rgba(255, 255, 255, .8);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
 
 .tip {
     background-color: rgba(173, 216, 230, 0.7);
+    border-radius: 8px;
     margin: 2rem;
     padding: 1rem;
 }
@@ -18,5 +19,6 @@
 
 .tip__title {
     color: rgb(11, 14, 214);
-    margin: 0 2rem;
+    margin: 1rem 2rem;
+    text-align: center;
 }
