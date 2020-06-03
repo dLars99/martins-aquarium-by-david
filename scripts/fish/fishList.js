@@ -3,38 +3,22 @@ const fishArticleElement = document.querySelector(".fishList")
 
 // Master function to show fish in the browser
 
-const fishListParser = (currentFishObjectsArray) => {
+const showFish = (currentFishObjectsArray) => {
     for (const currentFishObject of currentFishObjectsArray) {
         const fishCardHTML = convertFishObject(currentFishObject)
         fishArticleElement.innerHTML += fishCardHTML
     }
 }
 
-// Function to show holy fish in the browser
-const showHolyFish = () => {
-    const fishObjectsArray = mostHolyFish()
-
-    fishListParser(fishObjectsArray)
-}
-
-// Function to show solder fish in the browser
-const showSoldierFish = () => {
-    const fishObjectsArray = soldierFish()
-
-    fishListParser(fishObjectsArray)
-}
-
-// Function to show remaining fish in the browser
-const showCommonerFish = () => {
-    const fishObjectsArray = nonHolyFish()
-
-    fishListParser(fishObjectsArray)
-}
-
-// Invoke the respective functions to show fish in the browser
+// Show each set of fish in the browser in order: holy, soldiers, and everyone else
 
 const fishList = () => {
-    showHolyFish()
-    showSoldierFish()
-    showCommonerFish()
+    const holyFish = mostHolyFish()
+    showFish(holyFish)
+
+    const soldierFishArray = soldierFish()
+    showFish(soldierFishArray)
+
+    const commonerFishArray = nonHolyFish()
+    showFish(commonerFishArray)
 }
