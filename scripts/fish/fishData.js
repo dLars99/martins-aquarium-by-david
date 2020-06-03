@@ -53,7 +53,7 @@ const fishCollection = [
         picture: "https://www.spotmydive.com/media/cache/my_thumb_article_img/uploads/images/1460384757_ca8.jpg",
         name: "Major Major",
         species: "Flatfish",
-        length: 17,
+        length: 20,
         location: "Marianas Trench",
         food: "Leftover Pizza"
     },
@@ -74,3 +74,42 @@ const fishCollection = [
         food: "Sand"
     }
 ]
+
+// Sort fish by length into most holy multiples of 3
+const mostHolyFish = () => {
+    const holyCarp = []
+
+    for (currentFish of fishCollection) {
+        if (currentFish.length % 3 === 0) {
+            holyCarp.push(currentFish)
+        }
+    }
+    console.log(holyCarp)
+    return holyCarp
+}
+
+// Sort fish by length into slightly less holy multiples of 5
+const soldierFish = () => {
+    const soldierFish = []
+
+    for (currentFish of fishCollection) {
+        if (currentFish.length % 5 === 0) {
+            soldierFish.push(currentFish)
+        }
+    }
+
+    return soldierFish
+}
+
+// Sort the plebian fish
+const nonHolyFish = () => {
+    const commonerFish = []
+
+    for (currentFish of fishCollection) {
+        if (!((currentFish.length % 5 === 0) || (currentFish.length % 3 === 0))) {
+            commonerFish.push(currentFish)
+        }
+    }
+
+    return commonerFish
+}
