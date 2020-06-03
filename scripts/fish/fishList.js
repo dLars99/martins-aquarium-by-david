@@ -1,4 +1,4 @@
-
+// Store section of the browser into which we insert the fish list
 const fishArticleElement = document.querySelector(".fishList")
 
 // Master function to show fish in the browser
@@ -31,7 +31,7 @@ const showCommonerFish = () => {
     fishListParser(fishObjectsArray)
 }
 
-// Call the respective functions to show fish in the browser
+// Invoke the respective functions to show fish in the browser
 
 const fishList = () => {
     showHolyFish()
