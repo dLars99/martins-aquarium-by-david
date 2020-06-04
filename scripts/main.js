@@ -1,4 +1,8 @@
+getFishData().then(() => {
+    fishList()
+}    
+)
+
 quoteList()
-fishList()
 locationList()
 tipList()
