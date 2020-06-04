@@ -1,0 +1,111 @@
+{
+        "fish": [
+        {
+            "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
+            "name": "Angus",
+            "species": "Parrot fish",
+            "length": 8,
+            "location": "Sea of Google",
+            "food": "Popcorn"
+        }, {
+            "picture": "https://cdn0.wideopenpets.com/wp-content/uploads/2019/10/Fish-Names-770x405.png",
+            "name": "Dopey",
+            "species": "Ryukin goldfish",
+            "length": 6,
+            "location": "Sea of Surprise",
+            "food": "Bonito flakes"
+        }, {
+            "picture": "https://images.theconversation.com/files/299379/original/file-20191030-154716-1wc4d64.jpg?ixlib=rb-1.1.0&rect=18%2C3%2C2026%2C1355&q=45&auto=format&w=496&fit=clip",
+            "name": "Schnauzer",
+            "species": "Unicorn fish",
+            "length": 25,
+            "location": "Scented Sea",
+            "food": "Kelp"
+        }, {
+            "picture": "https://www.nationalgeographic.com/content/dam/animals/pictures/hero/fish-hero.adapt.1900.1.jpg",
+            "name": "Carole Baskin",
+            "species": "Lionfish",
+            "length": 12,
+            "location": "Sea of Seas",
+            "food": "Gazelle"
+        }, {
+            "picture": "https://i2.wp.com/fishingbooker.com/blog/media/Anglerfish-1-e1540224525672.jpg?fit=718%2C507&ssl=1&resize=1200%2C900",
+            "name": "Gozer",
+            "species": "Warm and Fuzzy Fish",
+            "length": 137,
+            "location": "Sea of Qo'noS",
+            "food": "Sleeping minnows"
+        }, {
+            "picture": "https://vignette.wikia.nocookie.net/disney/images/6/60/Profile_-_Flounder.jpeg/revision/latest?cb=20191026173646",
+            "name": "Jim",
+            "species": "Orion Fish",
+            "length": 9,
+            "location": "Percy Priest",
+            "food": "Lettuce"
+        }, {
+            "picture": "https://www.spotmydive.com/media/cache/my_thumb_article_img/uploads/images/1460384757_ca8.jpg",
+            "name": "Major Major",
+            "species": "Flatfish",
+            "length": 20,
+            "location": "Marianas Trench",
+            "food": "Leftover Pizza"
+        }, {
+            "picture": "https://i.dailymail.co.uk/i/pix/2015/11/10/00/2E48C67200000578-0-image-m-31_1447114400618.jpg",
+            "name": "Triclops",
+            "species": "Mutated guppy",
+            "length": 12,
+            "location": "Sea of Eternia",
+            "food": "Plutonium"
+        }, {
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Still_Life_with_Dead_Fish_-_Muleg%C3%A9_-_Baja_California_Sur_-_Mexico.jpg",
+            "name": "Willy",
+            "species": "Pompano",
+            "length": 13,
+            "location": "Dead Sea",
+            "food": "Sand"
+        }
+    ],
+    
+    "locations": [
+        {
+            "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
+            "name": "Caribbean Sea",
+            "details": "Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard."
+        },
+        {
+            "picture": "https://www.azamara.com/sites/default/files/heros/coron-palawan-philippines-1800x1000.jpg",
+            "name": "Kayangan Lake",
+            "details": "From Marathon to Waterloo, in order categorical."
+        },
+        {
+            "picture": "https://render.fineartamerica.com/images/rendered/default/flat/beach-towel/images-medium-5/beautiful-ocean-and-sunset-with-dolphin-jumping-michal-bednarek.jpg?&targetx=0&targety=-79&imagewidth=952&imageheight=634&modelwidth=952&modelheight=476&backgroundcolor=D4AA98&orientation=1&producttype=beachtowel-37-74",
+            "name": "Dolphin Bay",
+            "details": "I'm very good at integral and differential calculus,    I know the scientific names of beings animalculous."
+        },
+        {
+            "picture": "https://images.takeshape.io/fd194db7-7b25-4b5a-8cc7-da7f31fab475/dev/8dd0faab-c1da-413c-abeb-0349700e356a/Hadean.png?auto=compress%2Cformat&crop=faces&fit=crop&fm=jpg&h=360&q=70&w=540",
+            "name": "Sea of Qo'noS",
+            "details": "nIb quvmoH chaw nuQ pIqaD way mIQ SeHlaw tungHa' taS, ghor jatIh wanI' pab wuv qugh ghoma' jIv."
+        }
+    ],
+
+    "tips": [
+        "Poutine viral man braid farm-to-table chambray stumptown.",
+        "I am the very model of a modern major general.",
+        "I've information vegetable, animal, and mineral.",
+        "I know the kings of England, and I quote the fights historical."
+    ],
+    
+    "quotes": [
+         {
+             "quote": "brooklyn prism shaman readymade hammock selvage hot chicken, mumblecore master cleanse post - ironic palo santo copper mug.",
+             "author": "Sven Svenson"
+         }, {
+             "quote": "In fact, when I know what is meant by \"mamelon\" and \"ravelin\", when I can tell at sight a chassep't rifle from a javelin.",
+             "author": "Mergatroid Jones"
+         }, {
+             "quote": "Then I can write a washing bill in Balylonic cuneiform, and tell you every detail of Caractacus's uniform.",
+             "author": "Harold Herald"
+         }
+    ]
+}
