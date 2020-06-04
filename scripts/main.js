@@ -3,6 +3,14 @@ getFishData().then(() => {
 }    
 )
 
-quoteList()
-locationList()
-tipList()
+getLocationData().then(() => {
+    locationList()
+})
+
+getQuoteData().then(() => {
+    quoteList()
+})
+
+getTipData().then(() => {
+    tipList()
+})

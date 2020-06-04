@@ -22,7 +22,6 @@ const mostHolyFish = () => {
             holyCarp.push(currentFish)
         }
     }
-    console.log(holyCarp)
     return holyCarp
 }
 
