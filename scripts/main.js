@@ -1,7 +1,6 @@
 getFishData().then(() => {
     fishList()
-}    
-)
+})
 
 getLocationData().then(() => {
     locationList()
