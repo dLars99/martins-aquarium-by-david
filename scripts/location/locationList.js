@@ -7,3 +7,10 @@ const locationList = () => {
         locationArticleElement.innerHTML += locationCardHTML
     }
 }
+
+// Listen for the Toggle Locations button and hide or show
+const locationVisibilityButton = document.querySelector(".toggleLocations")
+
+locationVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".locationList").classList.toggle("hidden")
+})
