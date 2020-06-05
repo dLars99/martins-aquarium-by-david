@@ -56,4 +56,5 @@ const fishVisibilityButton = document.querySelector(".toggleFish")
 
 fishVisibilityButton.addEventListener("click", clickEvent => {
     document.querySelector(".fishList").classList.toggle("hidden")
+    document.querySelector(".fishList__title").classList.toggle("hidden")
 })

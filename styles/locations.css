@@ -1,14 +1,24 @@
-.locationList {
+.locations {
     background-image: url("https://i.pinimg.com/originals/60/f2/fb/60f2fba02c88a46e7e37dfe650f37d8c.jpg");
     background-color: mediumaquamarine;
     font-family: Candara, sans-serif;
+}
+
+.locationList__title {
+    color: rgb(9, 24, 19);
+    width: 100%;
+    margin: 2rem auto 0;
+    padding: .3rem 1.4rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(60, 179, 114, 0.7); 
 }
 
 .location {
     background-color: rgba(60, 179, 114, 0.7);
     width: 100%;
     margin: 2rem 0;
-    padding: 1rem 1.4rem;
+    padding: .2rem 1.4rem 1rem;
 }
 
 .location__title {

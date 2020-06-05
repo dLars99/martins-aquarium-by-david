@@ -5,6 +5,18 @@
     font-family: Candara, sans-serif;
 }
 
+.fishList__title {
+    font-family: Candara, sans-serif;
+    color: rgb(219, 219, 243);
+    width: 85%;
+    margin: 2rem auto 0;
+    padding: .3rem 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(11, 14, 214, 0.7);
+    border-radius: 20px;
+}
+
 .fish {
     background-color: rgba(11, 14, 214, 0.7);
     max-width: 25%;

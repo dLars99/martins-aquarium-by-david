@@ -3,16 +3,17 @@
 @import "tips.css";
 @import "quotes.css";
 @import "banner.css";
+@import "customization.css";
 
 
 .container {
     display: flex;
     flex-direction: column;
-}
-
-.underTheBanner {
     background-image: url("http://1-background.com/images/water-1/water-ocean-water-background.jpg");
     background-color: lightskyblue;
+}
+
+.underTheBanner {   
     display: flex;
     flex-direction: row;
 }

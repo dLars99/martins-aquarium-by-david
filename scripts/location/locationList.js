@@ -13,4 +13,5 @@ const locationVisibilityButton = document.querySelector(".toggleLocations")
 
 locationVisibilityButton.addEventListener("click", clickEvent => {
     document.querySelector(".locationList").classList.toggle("hidden")
+    document.querySelector(".locationList__title").classList.toggle("hidden")
 })
