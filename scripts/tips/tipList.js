@@ -7,3 +7,11 @@ const tipList = () => {
         tipSectionElement.innerHTML += tipCardHTML
     }
 }
+
+
+// Listen for the Toggle Tips button and hide or show
+const tipVisibilityButton = document.querySelector(".toggleTips")
+
+tipVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".tipList").classList.toggle("hidden")
+})
