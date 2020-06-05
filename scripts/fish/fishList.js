@@ -34,18 +34,21 @@ fishTypeDropdown.addEventListener("change", clickEvent => {
     // Clear the fish list and show only the fish the user selects
     let fishSelection = []
     clearFishList()
-    if (userChoice === "holy") {
-        fishSelection = mostHolyFish()
-    } else if (userChoice === "soldier") {
-        fishSelection = soldierFish()
-    } else if (userChoice === "plebs") {
-        fishSelection = nonHolyFish()
-    } 
-    showFish(fishSelection)
-
-    if (userChoice === "all") {
-        fishList()
+    switch (userChoice) {
+        case "holy":
+            fishSelection = mostHolyFish()
+            break;
+        case "soldier":
+            fishSelection = soldierFish()
+        break;
+        case "plebs":
+            fishSelection = nonHolyFish()
+            break;
+        default:
+            fishList()
     }
+    
+    showFish(fishSelection)
 })
 
 // Listen for the Toggle fish button and hide or show
